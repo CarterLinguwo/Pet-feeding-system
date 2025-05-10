@@ -1,0 +1,5 @@
+dependencies:
+  idf: '>=5.2'
+description: Sets up the I2C master bus for use by one or more devices
+documentation: https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/i2c.html
+version: 0.1.0

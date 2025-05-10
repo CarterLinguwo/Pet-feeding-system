@@ -1,0 +1,9 @@
+menu "Knob"
+    config MAX_GLITCH_NS
+        int "Maximum allowable glitch (ns)"
+        default 1000
+        range 0 1000000
+        help
+            Pulse width smaller than this threshold will be treated as glitch and ignored, in the unit of ns.
+
+endmenu
